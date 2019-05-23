@@ -1,0 +1,43 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt",
+      "type": "com.dd.prop.AuthProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "defaultValue": 0,
+      "name": "moyi.jwt.expire",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt.pri-key-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt.private-key",
+      "type": "java.security.PrivateKey"
+    },
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt.pub-key-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt.public-key",
+      "type": "java.security.PublicKey"
+    },
+    {
+      "sourceType": "com.dd.prop.AuthProperties",
+      "name": "moyi.jwt.secret",
+      "type": "java.lang.String"
+    }
+  ]
+}

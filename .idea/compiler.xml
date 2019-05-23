@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="moyi-auth-common" />
+        <module name="moyi-auth-service" />
+        <module name="moyi-common" />
+        <module name="moyi-eureka" />
+        <module name="moyi-file" />
+        <module name="moyi-item-interface" />
+        <module name="moyi-item-server" />
+        <module name="moyi-zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="moyi-auth" options="-parameters" />
+      <module name="moyi-auth-common" options="-parameters" />
+      <module name="moyi-auth-service" options="-parameters" />
+      <module name="moyi-common" options="-parameters" />
+      <module name="moyi-eureka" options="-parameters" />
+      <module name="moyi-file" options="-parameters" />
+      <module name="moyi-item-interface" options="-parameters" />
+      <module name="moyi-item-server" options="-parameters" />
+      <module name="moyi-parent" options="-parameters" />
+      <module name="moyi-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

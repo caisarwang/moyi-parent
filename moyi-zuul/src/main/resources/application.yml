@@ -1,0 +1,37 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: moyi-zuul
+eureka:
+  client:
+    service-url:
+      #配置注册中心地址
+      defaultZone: http://127.0.0.1:10086/eureka #单机版eureka-service
+#路由匹配规则：指向服务id简单写法，约定成俗，先写服务id，在写匹配路径
+zuul:
+  routes:
+    #表示路由id名称，这里可以随意不影响。这里表示符合user-consumer路径规则
+    #的都将请求发送到服务id为user-consumer的服务器上。左边表示服务id，右边表示匹配路径
+    item-server: item/**
+    file-server: uploadFile/**
+    auth-server: authCenter/**
+  sensitive-headers: #设置敏感头信息，这样不会过滤掉set-cookie头
+  add-host-header: true #携带请求本身的host信息
+#zuul中配置熔断超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 6000 # 熔断超时时长： 6000ms
+#zuul中配置ribbon负载时间
+ribbon:
+  ConnectTimeout: 250 # 连接超时时间(ms)
+  ReadTimeout: 2000 # 通信超时时间(ms)
+  OkToRetryOnAllOperations: true # 是否对所有操作重试
+  MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 0 # 同一实例的重试次数
+
+
