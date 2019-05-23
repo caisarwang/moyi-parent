@@ -8,8 +8,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.joda.time.DateTime;
 
-import java.security.PrivateKey;
-import java.security.PublicKey;
+import java.security.*;
 
 public class JwtUtil {
     /**
@@ -105,5 +104,23 @@ public class JwtUtil {
                 ObjectUtil.toLong(body.get(JwtConstant.JWT_KEY_ID)),
                 ObjectUtil.toString(body.get(JwtConstant.JWT_KEY_USER_NAME))
         );
+    }
+
+    public static void main(String[] args) throws Exception {
+        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+        SecureRandom secureRandom = new SecureRandom("121132".getBytes());
+        keyPairGenerator.initialize(1024, secureRandom);
+        KeyPair keyPair = keyPairGenerator.genKeyPair();
+        byte[] privateKeyBytes = keyPair.getPrivate().getEncoded();
+        byte[] publicKeyBytes = keyPair.getPublic().getEncoded();
+
+        UserInfo user = new UserInfo();
+        user.setId(1L);
+        user.setUsername("zhangsan");
+
+        String token = generateToken(user, privateKeyBytes, 300);
+        System.out.println(token);
+        UserInfo usernew = getInfoFromToken(token, publicKeyBytes);
+        System.out.println(usernew.getUsername());
     }
 }

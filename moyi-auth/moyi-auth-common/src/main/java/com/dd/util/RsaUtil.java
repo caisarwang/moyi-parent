@@ -98,11 +98,11 @@ public class RsaUtil {
     }
 
     public static void main(String[] args) throws Exception {
-        generateKey("H:\\wgd\\public.rsa", "H:\\wgd\\private.rsa", "123456");
+//        generateKey("H:\\wgd\\public.rsa", "H:\\wgd\\private.rsa", "123456");
 
         KeyPairGenerator keyPairGenerator = KeyPairGenerator
                 .getInstance("RSA");
-        keyPairGenerator.initialize(2048);
+        keyPairGenerator.initialize(1024);
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
         RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
         RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();

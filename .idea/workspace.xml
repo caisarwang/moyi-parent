@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d0268d-0cad-4add-8df3-75870e64735f" name="Default Changelist" comment="" />
+    <list default="true" id="08d0268d-0cad-4add-8df3-75870e64735f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/target/classes/com/dd/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/target/classes/com/dd/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/target/classes/com/dd/util/RsaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-common/target/classes/com/dd/util/RsaUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-auth/moyi-auth-service/target/classes/com/dd/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-auth/moyi-auth-service/target/classes/com/dd/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moyi-common/target/classes/com/dd/utils/IdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/moyi-common/target/classes/com/dd/utils/IdWorker.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -41,11 +50,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-interface/src/main/java/com/dd/pojo/Item.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestDecodeByPrikey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByStringKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByObjectKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,21 +104,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/java/com/dd/service/impl/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/moyi-common/pom.xml" />
-        <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/enum/ExcetionEnum.kt" />
-        <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/enums/ExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/exception/CustomException.java" />
-        <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/vo/Result.java" />
-        <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/java/com/dd/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/exception/ExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/java/com/dd/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/java/com/dd/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/config/CorsFilter.java" />
         <option value="$PROJECT_DIR$/moyi-common/src/main/java/com/dd/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/resources/application.yml" />
@@ -101,12 +127,10 @@
         <option value="$PROJECT_DIR$/moyi-auth/pom.xml" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-service/src/main/java/com/dd/AuthApp.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/constant/JwtConstant.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/ObjectUtil.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/pom.xml" />
-        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/test/java/com/dd/test.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/test/java/com/dd/test/JwtTest.java" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-service/pom.xml" />
@@ -124,6 +148,18 @@
         <option value="$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/resources/freemarker/index.ftl" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-service/src/main/resources/auth.properties" />
         <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-service/src/main/java/com/dd/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/Base64Util.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/Base64Utils.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RSAUtils.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/TestJwt.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TokenUtil.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestJwt.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestDecodeByPrikey.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/Jwt.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByStringKey.java" />
+        <option value="$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByObjectKey.java" />
       </list>
     </option>
   </component>
@@ -148,10 +184,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="55" />
-    <option name="width" value="1145" />
-    <option name="height" value="599" />
+    <option name="x" value="335" />
+    <option name="y" value="107" />
+    <option name="width" value="1182" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,70 +208,70 @@
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item" type="462c0819:PsiDirectoryNode" />
-              <item name="moyi-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dd" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moyi-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moyi-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="moyi-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dd" type="462c0819:PsiDirectoryNode" />
+              <item name="newUtil" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +286,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556378037630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558588463705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -261,12 +297,8 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.dd.controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.dd" />
-      <recent name="com.dd.config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Icode01\moyi-parent\moyi-auth\moyi-auth-common\src\main\java\com\dd\newUtil" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\icode\moyi-parent\moyi-auth\moyi-auth-common\src\main\java\com\dd\util" />
@@ -274,6 +306,13 @@
       <recent name="E:\icode\moyi-parent\moyi-item\moyi-item-server\src\main\resources\static\js" />
       <recent name="E:\icode\moyi-parent\moyi-item\moyi-item-server\src\main\resources" />
       <recent name="E:\icode\moyi-parent\moyi-common\src\main\java\com\dd\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dd" />
+      <recent name="com.dd.config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dd.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,51 +333,68 @@
     </option>
     <option name="contentProportion" value="0.19551778" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApp">
-    <configuration name="JwtTest.testGenerateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dd.util.JwtUtil" />
       <module name="moyi-auth-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dd.test.*" />
+          <option name="PATTERN" value="com.dd.newUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dd.test.JwtTest" />
-      <option name="METHOD_NAME" value="testGenerateToken" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.testParseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RsaUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dd.util.RsaUtil" />
       <module name="moyi-auth-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dd.test.*" />
+          <option name="PATTERN" value="com.dd.newUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dd.test.JwtTest" />
-      <option name="METHOD_NAME" value="testParseToken" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.testRsa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDecodeByPrikey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dd.newUtil.TestDecodeByPrikey" />
       <module name="moyi-auth-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dd.test.*" />
+          <option name="PATTERN" value="com.dd.newUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dd.test.JwtTest" />
-      <option name="METHOD_NAME" value="testRsa" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTokenByObjectKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dd.newUtil.TestTokenByObjectKey" />
+      <module name="moyi-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dd.newUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTokenByStringKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dd.newUtil.TestTokenByStringKey" />
+      <module name="moyi-auth-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dd.newUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -357,32 +413,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moyi-file" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dd.FileApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="moyi-item-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dd.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dd.ItemApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZuulApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="moyi-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dd.ZuulApp" />
@@ -392,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ItemApp" />
-        <item itemvalue="JUnit.JwtTest.testParseToken" />
-        <item itemvalue="JUnit.JwtTest.testGenerateToken" />
-        <item itemvalue="JUnit.JwtTest.testRsa" />
-        <item itemvalue="Spring Boot.FileApp" />
+        <item itemvalue="Application.TestTokenByObjectKey" />
+        <item itemvalue="Application.TestTokenByStringKey" />
+        <item itemvalue="Application.TestDecodeByPrikey" />
+        <item itemvalue="Application.JwtUtil" />
+        <item itemvalue="Application.RsaUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +451,7 @@
       <workItem from="1556632795143" duration="5158000" />
       <workItem from="1556696409822" duration="6694000" />
       <workItem from="1558533523245" duration="1623000" />
-      <workItem from="1558573896394" duration="180000" />
+      <workItem from="1558573896394" duration="10933000" />
     </task>
     <servers />
   </component>
@@ -452,12 +482,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64747000" />
+    <option name="totallyTimeSpent" value="75500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -465,27 +496,28 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2009804" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19466074" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18242492" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.79310346" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.54282534" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.27030033" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3548387" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.17888889" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32843137" />
       <window_info anchor="bottom" id="Problems" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.17697228" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.060234543" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
@@ -550,43 +582,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/develop/nginx-1.8.0/conf/nginx.conf" />
-    <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/resources/static/js/jquery-3.1.0.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-common/src/main/java/com/dd/config/CorsConfig.java" />
-    <entry file="file://$PROJECT_DIR$/moyi-file/src/main/java/com/dd/FileApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-file/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/resources/freemarker/user/userinfo.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-file/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
@@ -626,32 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util.java" />
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/ObjectUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/test/java/com/dd/test.java" />
     <entry file="jar://D:/develop/Java/jdk1.8.0_05/src.zip!/java/security/PublicKey.java" />
     <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-server/pom.xml">
@@ -692,30 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/constant/JwtConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/model/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-service/src/main/java/com/dd/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -879,8 +805,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moyi-item/moyi-item-interface/src/main/java/com/dd/pojo/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" lean-forward="true" selection-end-line="156" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Repository_maven/io/jsonwebtoken/jjwt/0.9.0/jjwt-0.9.0.jar!/io/jsonwebtoken/impl/DefaultJwtParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="71" column="50" lean-forward="true" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/Base64Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="128" column="17" lean-forward="true" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/RSAUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/JwtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="114" column="65" lean-forward="true" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/RsaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="93" column="29" lean-forward="true" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/util/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestDecodeByPrikey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByStringKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moyi-auth/moyi-auth-common/src/main/java/com/dd/newUtil/TestTokenByObjectKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
